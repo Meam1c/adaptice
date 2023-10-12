@@ -1,0 +1,35 @@
+.section-1{
+    margin-top: 80px;
+}
+
+.section-wrapper {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.l-text{
+    max-width: 721px;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px; /* 114.286% */
+    letter-spacing: -4px;
+}
+.s-text{
+    max-width: 565px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
+.img{
+    width:550px ;
+    height: 580px;
+}
+@media (max-width: 950px){
+.section-wrapper{
+    flex-wrap: wrap;
+}
+.img img{
+    width:330px ;
+    height: 348px;
+}
+}
